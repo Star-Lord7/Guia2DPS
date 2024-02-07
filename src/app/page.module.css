@@ -6,25 +6,36 @@
   padding: 6rem;
   min-height: 100vh;
   }
-  .container__list {
-  list-style-type: none;
-  padding: 0;
+  .calculadora {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
   }
-  .list {
+  .numeros {
+  margin-bottom: 10px;
+  }
+  .text {
+  display: block;
   margin-bottom: 5px;
   }
-  .title {
-  margin: 20px 0;
-  border: 0;
-  border-top: 1px solid #ccc;
+  .inputnum {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
   }
-  .nameclub {
-  margin: 20px 0;
-  border: 0;
-  border-top: 1px solid rgb(29, 84, 185);
+  .button {
+  font-size: 1.2em;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
   }
-  .playerImage {
-    width: 100px; /* Ajusta el tamaño según tus necesidades */
-    height: auto;
-    margin-right: 10px; /* Ajusta el margen según tus necesidades */
+  .resultado {
+  margin-top: 10px;
+  font-weight: bold;
   }
